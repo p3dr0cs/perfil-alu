@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou pedro Henrique_</p>
+        <h1>sou Aluno da Escola Ana Siqueira</h1>
+        <p>Estou cursando o Ensino Medio!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Minha parodia de sites de streaming</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos mais interessantes vídeos que vi, 
+                             A página é estilizada com CSS para uma visualização agradável e usa fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">aventura-na-floresta-secreta</h5>
+                        <p class="card-text">O site Aventura na Floresta Secreta oferece uma experiência interativa de narrativa,
+                             onde o usuário assume o papel de um personagem que acorda em uma floresta misteriosa e deve tomar decisões que influenciam o desenrolar da história. 
+                            A cada escolha, o visitante é levado a diferentes caminhos, descobrindo segredos, 
+                            enfrentando desafios e explorando ambientes como cabanas antigas, lagos tranquilos e cavernas enigmáticas.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web desenvolvida utilizando HTML e CSS, com o objetivo de apresentar um portfólio pessoal. 
+                        A proposta é criar um espaço online onde seja possível expor informações sobre habilidades, projetos realizados e formas de contato, 
+                        funcionando como uma vitrine profissional na web.</p>
+                         <p>A estrutura do site foi construída com HTML, 
+                        que organiza a disposição e o significado do conteúdo, enquanto o CSS foi aplicado para definir a aparência visual da página,
+                         ajustando cores,fontes e a disposição dos elementos para tornar a navegação agradável e intuitiva.</p>
+                        <p>O HTML organiza o conteúdo em uma estrutura clara,
+                        composta por um cabeçalho com o título e links de navegação, uma seção de apresentação pessoal,
+                        uma galeria de projetos e uma área de contato. 
+                        Cada projeto é destacado com uma imagem representativa, uma breve descrição e um link para mais detalhes.
+                        O design responsivo é assegurado através do uso de media queries e de uma configuração adequada da viewport,
+                        permitindo que o site se adapte bem a diferentes tamanhos de tela.</p> 
+                        <p>O CSS é responsável pela estilização completa do site, utilizando variáveis para definir as cores principais, 
+                         fontes modernas importadas do Google Fonts, além de efeitos de transição em botões e elementos interativos.
+                         A combinação de HTML e CSS permite criar um portfólio visualmente atrativo, acessível e funcional, 
+                         sem necessidade de linguagens adicionais,
+                         garantindo uma experiência agradável para quem deseja conhecer melhor os trabalhos e habilidades apresentados.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://p3dr0cs.github.io/sitealura/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/p3dr0cs/sitealura/settings/pages">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web desenvolvida utilizando HTML e CSS, com o objetivo de proporcionar uma experiência interativa baseada em uma narrativa de aventura. 
+                        A proposta é criar um ambiente digital onde os usuários possam explorar uma floresta misteriosa, tomando decisões que influenciam o desenrolar da história, 
+                        semelhante aos clássicos livros-jogo.</p> 
+                        <p>A estrutura do site foi construída com HTML, que organiza a disposição e o significado de cada parte do conteúdo, 
+                         enquanto o CSS é aplicado para definir a estética da página, utilizando cores que remetem à natureza, fontes temáticas e uma 
+                         disposição visual que facilita a imersão na aventura.</p> 
+                        <p>O HTML organiza o conteúdo de forma lógica e clara, começando com um cabeçalho que apresenta o título da aventura, 
+                         seguido por seções que descrevem o enredo e oferecem opções de escolha ao usuário, guiando-o através de diferentes caminhos na floresta. 
+                        Cada escolha leva a novas seções ou páginas, criando um fluxo dinâmico e envolvente. O design responsivo é garantido por meio da configuração da viewport e do
+                         uso de técnicas de layout flexível, assegurando que a experiência seja acessível em diversos dispositivos e tamanhos de tela.</p> 
+                        <p>O CSS é responsável por toda a estilização do site, utilizando paletas de cores naturais e fontes importadas para reforçar a ambientação da floresta. 
+                        Além disso, são aplicados efeitos visuais suaves para destacar as escolhas interativas e tornar a navegação mais envolvente. 
+                        A combinação de HTML e CSS neste projeto é fundamental para oferecer uma experiência de usuário acessível, 
+                        funcional e esteticamente atrativa, promovendo a interação e estimulando a exploração do conteúdo narrativo de forma intuitiva e criativa.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://p3dr0cs.github.io/aventura-na-floresta-secreta/ ">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/p3dr0cs/aventura-na-floresta-secreta/settings/pages">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/p3dr0cs">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Pedro Henrique Carvalho de Sousa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
